@@ -17,8 +17,6 @@
 		1798A15324DCA2D0009C5287 /* ImageData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1798A15224DCA2D0009C5287 /* ImageData.swift */; };
 		1798A15524DCA33F009C5287 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1798A15424DCA33F009C5287 /* ImageCell.swift */; };
 		1798A15A24DCC399009C5287 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1798A15924DCC399009C5287 /* ImageLoader.swift */; };
-		1798A15E24DCD214009C5287 /* HorizontalList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1798A15D24DCD214009C5287 /* HorizontalList.swift */; };
-		1798A16024DCDA31009C5287 /* NewImageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1798A15F24DCDA31009C5287 /* NewImageList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,8 +32,6 @@
 		1798A15224DCA2D0009C5287 /* ImageData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageData.swift; sourceTree = "<group>"; };
 		1798A15424DCA33F009C5287 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
 		1798A15924DCC399009C5287 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
-		1798A15D24DCD214009C5287 /* HorizontalList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalList.swift; sourceTree = "<group>"; };
-		1798A15F24DCDA31009C5287 /* NewImageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewImageList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,12 +67,10 @@
 				1798A13A24DC9701009C5287 /* AppDelegate.swift */,
 				1798A13C24DC9701009C5287 /* SceneDelegate.swift */,
 				1798A13E24DC9701009C5287 /* ImageListView.swift */,
-				1798A15F24DCDA31009C5287 /* NewImageList.swift */,
 				1798A15024DCA283009C5287 /* ImageListViewModel.swift */,
 				1798A15424DCA33F009C5287 /* ImageCell.swift */,
 				1798A15924DCC399009C5287 /* ImageLoader.swift */,
 				1798A15224DCA2D0009C5287 /* ImageData.swift */,
-				1798A15D24DCD214009C5287 /* HorizontalList.swift */,
 				1798A14024DC9702009C5287 /* Assets.xcassets */,
 				1798A14524DC9702009C5287 /* LaunchScreen.storyboard */,
 				1798A14824DC9702009C5287 /* Info.plist */,
@@ -169,8 +163,6 @@
 				1798A13D24DC9701009C5287 /* SceneDelegate.swift in Sources */,
 				1798A15124DCA283009C5287 /* ImageListViewModel.swift in Sources */,
 				1798A15324DCA2D0009C5287 /* ImageData.swift in Sources */,
-				1798A15E24DCD214009C5287 /* HorizontalList.swift in Sources */,
-				1798A16024DCDA31009C5287 /* NewImageList.swift in Sources */,
 				1798A13F24DC9701009C5287 /* ImageListView.swift in Sources */,
 				1798A15524DCA33F009C5287 /* ImageCell.swift in Sources */,
 			);
