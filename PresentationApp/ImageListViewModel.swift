@@ -12,7 +12,7 @@ import SwiftUI
 class ImageListViewModel: ObservableObject {
     @Published var imagesData = [ImageData]()
 
-    private let url = "https://picsum.photos/v2/list?page=1&limit=15"
+    private let url = "https://picsum.photos/v2/list?page=1&limit=10"
     private var task: AnyCancellable?
 
     func loadImages() {

@@ -32,7 +32,7 @@ struct ImageCell: View {
                 .shadow(color: Color.black, radius: 3)
 
             HStack(alignment: .center) {
-                Text("Author").foregroundColor(Color.gray)
+                Text("Photorapher").foregroundColor(Color.gray)
                 Spacer()
                 Text(imageData.author)
                     .bold()

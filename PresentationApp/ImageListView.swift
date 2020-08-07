@@ -22,6 +22,7 @@ struct ImageListView: View {
                 Text("No image")
             }
             .onAppear {
+                UITableView.appearance().separatorStyle = .none
                 self.viewModel.loadImages()
             }
         } else {
@@ -29,7 +30,7 @@ struct ImageListView: View {
                 List(viewModel.imagesData, id:\.self) {
                     ImageCell(imageData: $0)
                 }
-                .navigationBarTitle(Text("Picsum"))
+                .navigationBarTitle(Text("Photos"))
             }
         }
     }
